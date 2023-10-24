@@ -1,0 +1,43 @@
+@import url('./styles.css');
+
+#main {
+    width: 100%;
+    height: 75px;
+    background: #303030;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid #BABABA;
+}
+
+#main button {
+    margin-right: 2%;
+    background: var(--blue-dnc);
+    box-shadow: 3px 2px 4px 0px var(--shadow-blue);
+    width: 80px;
+    height: 39px;
+    flex-shrink: 0;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#main a{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    font-family: var(--font-website);
+    text-decoration: none;
+}
+
+#menu{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#menu a:hover{
+    color: var(--grey-dnc);
+}

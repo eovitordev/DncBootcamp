@@ -1,0 +1,11 @@
+:root{
+    /* main.css */
+    --blue-dnc: #0C70F2;
+    --shadow-blue: #0c70f240;
+    --grey-dnc: #CCCCCC;
+
+    /* body.css */
+    --blue-transparent: #0c70f280;
+    --grey-transparent: #0c70f200;
+    --font-website: Inter;
+}
