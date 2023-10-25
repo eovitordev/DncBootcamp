@@ -1,0 +1,72 @@
+@import url('./styles.css');
+
+footer{
+    background-color: var(--blue-dnc);
+}
+
+footer #line1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer ul li {
+    text-align: center;
+    color: white;
+    font-family: var(--font-website);
+    font-weight: 600;
+    margin: 20px 0px 20px 0px;
+}
+
+footer nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 360px;
+}
+
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover{
+    color: var(--grey-dnc);
+}
+
+footer h5{
+    background-color: var(--black-dnc);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-family: var(--font-website);
+    font-weight: 800;
+    font-size: 25px;
+    padding: 10px;
+}
+
+footer #local{
+    text-align: center;
+    color: white;
+    font-family: var(--font-website);
+    font-weight: bold;
+}
+
+footer #line2{
+    font-family: var(--font-website);
+    background-color: var(--blue-dnc);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+footer #line2 a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
